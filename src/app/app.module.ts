@@ -4,7 +4,7 @@ import { RouterModule } from "@angular/router";
 import { ToastrModule } from "ngx-toastr";
 import { ReactiveFormsModule, FormsModule } from "@angular/forms";
 
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
 
 import { SidebarModule } from "./sidebar/sidebar.module";
 import { FooterModule } from "./shared/footer/footer.module";
@@ -21,6 +21,7 @@ import { environment } from "environments/environment.prod";
 import { StoreDevtoolsModule } from "@ngrx/store-devtools";
 import { StoreModule } from "@ngrx/store";
 import { combineReducer } from "./app.reducers";
+import { InterceptorService } from "./interceptors/interceptor.service";
 
 @NgModule({
   declarations: [
@@ -46,7 +47,13 @@ import { combineReducer } from "./app.reducers";
       logOnly: environment.production,
     }),
   ],
-  providers: [],
+  providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: InterceptorService,
+      multi: true,
+    },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

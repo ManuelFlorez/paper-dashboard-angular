@@ -8,6 +8,7 @@ import { User } from "app/interface/User";
 import { SetUserAction } from "app/reducer/auth/auth.actions";
 import { FinishLoadingAction } from "app/reducer/ui/ui.actions";
 import { environment } from "environments/environment.prod";
+import { skip } from "rxjs/operators";
 
 @Injectable({
   providedIn: "root",
@@ -22,7 +23,10 @@ export class AuthService {
     private router: Router,
     private store: Store<AppState>
   ) {
-    this.store.select("auth").subscribe(({ user }) => (this.user = user));
+    this.store
+      .select("auth")
+      .pipe(skip(1))
+      .subscribe(({ user }) => (this.user = user));
   }
 
   registerUser(user: User) {
@@ -59,9 +63,8 @@ export class AuthService {
       .get(this.endpoint + "/users/" + id, {
         headers,
       })
-      .subscribe(
-        (res: AuthUser) => this.store.dispatch(new SetUserAction(res)),
-        console.error
+      .subscribe((res: AuthUser) =>
+        this.store.dispatch(new SetUserAction(res))
       );
   }
 

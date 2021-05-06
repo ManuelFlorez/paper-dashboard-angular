@@ -33,7 +33,7 @@ export class PrivateGuard implements CanActivate {
     switch (state.url) {
       case "/maps":
       case this.findText(state.url, "/table/"):
-        if (user?.role !== "admin") {
+        if (user && user.role !== "admin") {
           this.router.navigate(["/dashboard"]);
           return false;
         } else return true;

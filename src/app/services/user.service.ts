@@ -22,18 +22,12 @@ export class UserService {
   ) {}
 
   loadUsers(page: number) {
-    const token = localStorage.getItem("x-token");
     let params = new HttpParams()
       .set("sortBy", "asc")
       .set("limit", "5")
       .set("page", page.toString());
-    const headers = new HttpHeaders().append(
-      "Authorization",
-      "Bearer " + token
-    );
     this.httpClient
       .get(this.endpoint + "/users", {
-        headers,
         params,
       })
       .subscribe((res: UserPages) => {
@@ -41,19 +35,12 @@ export class UserService {
         page === 0
           ? this.router.navigate([`/table/${res.totalPages}`])
           : this.store.dispatch(new LoadUserAction(res));
-      }, console.error);
+      });
   }
 
   createUser(user: User) {
-    const token = localStorage.getItem("x-token");
-    const headers = new HttpHeaders().append(
-      "Authorization",
-      "Bearer " + token
-    );
     this.httpClient
-      .post(this.endpoint + "/users", user, {
-        headers,
-      })
-      .subscribe((_) => this.router.navigate(["/table/0"]), console.error);
+      .post(this.endpoint + "/users", user)
+      .subscribe((_) => this.router.navigate(["/table/0"]));
   }
 }
