@@ -1,0 +1,48 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h4 class="card-title">Simple Table</h4>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive">
+          <table class="table">
+            <thead class="text-primary">
+              <th>#</th>
+              <th>Nombre</th>
+              <th>Correo</th>
+              <th>¿Verificado?</th>
+              <th>Rol</th>
+            </thead>
+            <tbody>
+              <tr *ngFor="let user of users; let i = index">
+                <td>{{ i + 1 }}</td>
+                <td>{{ user.name }}</td>
+                <td>{{ user.email }}</td>
+                <td>
+                  <span *ngIf="user.isEmailVerified" class="text-success"
+                    >SI</span
+                  >
+                  <span *ngIf="!user.isEmailVerified" class="text-danger"
+                    >NO</span
+                  >
+                </td>
+                <td>{{ user.role | uppercase }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <nav class="row ml-4">
+      <ul
+        class="pagination pagination-sm"
+        *ngFor="let tp of totalPages; let i = index"
+      >
+        <li class="page-item" routerLinkActive="active">
+          <a class="page-link" routerLink="/table/{{ i + 1 }}">{{ i + 1 }}</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
