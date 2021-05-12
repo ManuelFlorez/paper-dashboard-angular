@@ -1,47 +1,44 @@
 # [App-Plataforma](https://www.creative-tim.com/product/paper-dashboard-angular)
-   
 
-![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/paper-dashboard-angular.gif)
+![Product Gif](https://github.com/ManuelFlorez/paper-dashboard-angular/tree/niver2/src/assets/img/capturas/img1.png)
 
 Paper Dashboard Angular is a Bootstrap Admin Template which combines soft colors with beautiful typography and spacious cards and graphics. It was built on top of Google's [Angular Framework](https://angular.io/) and the HTML version of [Paper Dashboard](https://www.creative-tim.com/product/paper-dashboard). It is a powerful dashboard but it is light and easy to be used. It has enough features to allow you to get the job done, but it is not crowded to the point where you can't find the files for a specific component.
 
- We like consistency and design that blends into its purpose. Paper Dashboard Angular is a perfect example of our most thoughtful work. It combines over a dozen components and plugins, while looking like everything fits together. For an easy start or inspiration for you project, we have also create a set of example pages, like the user settings or usage graphics.
+We like consistency and design that blends into its purpose. Paper Dashboard Angular is a perfect example of our most thoughtful work. It combines over a dozen components and plugins, while looking like everything fits together. For an easy start or inspiration for you project, we have also create a set of example pages, like the user settings or usage graphics.
 
- Paper Dashboard Angular is built using the same design language as [Paper Kit](http://www.creative-tim.com/product/paper-kit), which you can use for the presentation pages of your website. You can easily use them together, or pick between them depending on the project you have.
+Paper Dashboard Angular is built using the same design language as [Paper Kit](http://www.creative-tim.com/product/paper-kit), which you can use for the presentation pages of your website. You can easily use them together, or pick between them depending on the project you have.
 
- **Example Pages** We wanted to fully display the power of this dashboard, so the kit comes packed with examples showing you how to use the components.
+**Example Pages** We wanted to fully display the power of this dashboard, so the kit comes packed with examples showing you how to use the components.
 
- ## Table of Contents
+## Table of Contents
 
- * [Versions](#versions)
- * [Demo](#demo)
- * [Quick Start](#quick-start)
- * [Documentation](#documentation)
- * [File Structure](#file-structure)
- * [Browser Support](#browser-support)
- * [Resources](#resources)
- * [Reporting Issues](#reporting-issues)
- * [Technical Support or Questions](#technical-support-or-questions)
- * [Licensing](#licensing)
- * [Useful Links](#useful-links)
+- [Versions](#versions)
+- [Demo](#demo)
+- [Quick Start](#quick-start)
+- [Documentation](#documentation)
+- [File Structure](#file-structure)
+- [Browser Support](#browser-support)
+- [Resources](#resources)
+- [Reporting Issues](#reporting-issues)
+- [Technical Support or Questions](#technical-support-or-questions)
+- [Licensing](#licensing)
+- [Useful Links](#useful-links)
 
- ## Versions
+## Versions
 
- [<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="60" height="60" />](https://www.creative-tim.com/product/paper-dashboard-angular)
+[<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="60" height="60" />](https://www.creative-tim.com/product/paper-dashboard-angular)
 
+| Angular                                                                                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Paper Dashboard Angular](https://s3.amazonaws.com/creativetim_bucket/products/58/thumb/opt_pd_angular_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-angular) |
 
- | Angular |
- | --- |
- | [![Paper Dashboard Angular](https://s3.amazonaws.com/creativetim_bucket/products/58/thumb/opt_pd_angular_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-angular)
+## Demo
 
- ## Demo
+| Dashboard                                                                                 | Crear Usuario                                                                                                                                                                                                               | Listado Usuarios                                                                                                                                                                                               |
+| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [![Start page](src/)](https://demos.creative-tim.com/paper-dashboard-angular/#/dashboard) | [![User profile page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/user-profile.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/user-profile) | [![Tables page ](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/tables.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/table-list) |
 
- | Dashboard | Crear Usuario | Listado Usuarios |
- | --- | --- | --- |
- | [![Start page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/dashboard.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/dashboard) | [![User profile page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/user-profile.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/user-profile) | [![Tables page ](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/tables.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/table-list) |
-
- [View More](https://demos.creative-tim.com/paper-dashboard-angular/#/dashboard).
-
+[View More](https://demos.creative-tim.com/paper-dashboard-angular/#/dashboard).
 
 ## Quick start
 
@@ -54,9 +51,9 @@ Quick start options:
 1. Install NodeJs from [NodeJs Official Page](https://nodejs.org/en).
 2. Open Terminal
 3. Go to your file project
-4. Run in terminal: ```npm install -g @angular/cli```
-5. Then: ```npm install```
-6. And: ```ng serve```
+4. Run in terminal: `npm install -g @angular/cli`
+5. Then: `npm install`
+6. And: `ng serve`
 7. Navigate to: [http://localhost:4200/](http://localhost:4200/)
 
 ### What's included
@@ -156,14 +153,15 @@ paper-dashboard-angular
 ├── tsconfig.json
 └── tslint.json
 ```
+
 ## Browser Support
 
 At present, we officially aim to support the last two versions of the following browsers:
 
 <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
-
 ## Resources
+
 - Demo: https://demos.creative-tim.com/paper-dashboard-angular/#/dashboard
 - Download Page: https://www.creative-tim.com/product/paper-dashboard-angular
 - Documentation: https://demos.creative-tim.com/paper-dashboard-angular/#/documentation/tutorial
@@ -172,6 +170,7 @@ At present, we officially aim to support the last two versions of the following 
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/paper-dashboard-angular/issues)
 
 ## Reporting Issues
+
 We use GitHub Issues as the official bug tracker for the Paper Dashboard Angular. Here are some advices for our users that want to report an issue:
 
 1. Make sure that you are using the latest version of the Paper Dashboard Angular. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
