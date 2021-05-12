@@ -1,6 +1,6 @@
-# [App-Plataforma](https://www.creative-tim.com/product/paper-dashboard-angular)
+# [App-Plataforma]()
 
-![Product Gif](https://github.com/ManuelFlorez/paper-dashboard-angular/tree/niver2/src/assets/img/capturas/img1.png)
+![Product Gif](src/assets/img/capturas/img1.png)
 
 Paper Dashboard Angular is a Bootstrap Admin Template which combines soft colors with beautiful typography and spacious cards and graphics. It was built on top of Google's [Angular Framework](https://angular.io/) and the HTML version of [Paper Dashboard](https://www.creative-tim.com/product/paper-dashboard). It is a powerful dashboard but it is light and easy to be used. It has enough features to allow you to get the job done, but it is not crowded to the point where you can't find the files for a specific component.
 
