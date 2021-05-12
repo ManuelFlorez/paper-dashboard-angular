@@ -28,17 +28,15 @@ Paper Dashboard Angular is built using the same design language as [Paper Kit](h
 
 [<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="60" height="60" />](https://www.creative-tim.com/product/paper-dashboard-angular)
 
-| Angular                                                                                                                                                                                |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Paper Dashboard Angular](https://s3.amazonaws.com/creativetim_bucket/products/58/thumb/opt_pd_angular_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-angular) |
+| Angular                                                               |
+| --------------------------------------------------------------------- |
+| [![Paper Dashboard Angular](src/assets/img/capturas/registrar.png)]() |
 
 ## Demo
 
-| Dashboard                                                                                 | Crear Usuario                                                                                                                                                                                                               | Listado Usuarios                                                                                                                                                                                               |
-| ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Start page](src/)](https://demos.creative-tim.com/paper-dashboard-angular/#/dashboard) | [![User profile page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/user-profile.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/user-profile) | [![Tables page ](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/tables.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/table-list) |
-
-[View More](https://demos.creative-tim.com/paper-dashboard-angular/#/dashboard).
+| Dashboard                                           | Crear Usuario                                                      | Listado Usuarios                                               |
+| --------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------- |
+| [![Start page](src/assets/img/capturas/img1.png)]() | [![User profile page](src/assets/img/capturas/crearUsuario.png)]() | [![Tables page ](src/assets/img/capturas/listaUsuarios.png)]() |
 
 ## Quick start
 
@@ -77,6 +75,21 @@ paper-dashboard-angular
 ├── protractor.conf.js
 ├── src
 │   ├── app
+│   │   ├── auth
+│   │   │   ├── login
+│   │   │   │   ├── login.component.html
+│   │   │   │   └── login.component.ts
+│   │   │   ├── register
+│   │   │       ├── register.component.html
+│   │   │       └── register.component.ts
+│   │   ├── guards
+│   │   │     ├── private.guard.ts
+│   │   │     └── public.guard.ts
+│   │   ├── interceptors
+│   │   │     ├── interceptor.service.ts
+│   │   │     
+│   │   │      
+│   │   │  
 │   │   ├── app.component.css
 │   │   ├── app.component.html
 │   │   ├── app.component.spec.ts
