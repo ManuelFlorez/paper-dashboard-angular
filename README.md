@@ -1,5 +1,5 @@
-# [Paper Dashboard Angular](https://www.creative-tim.com/product/paper-dashboard-angular)
-![version](https://img.shields.io/badge/version-2.2.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/paper-dashboard-angular.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/paper-dashboard-angular.svg?maxAge=2592000)]()  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+# [App-Plataforma](https://www.creative-tim.com/product/paper-dashboard-angular)
+   
 
 ![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/paper-dashboard-angular.gif)
 
@@ -27,19 +27,18 @@ Paper Dashboard Angular is a Bootstrap Admin Template which combines soft colors
 
  ## Versions
 
- [<img src="https://s3.amazonaws.com/creativetim_bucket/github/html.png" width="60" height="60" />](https://www.creative-tim.com/product/paper-dashboard-2)
  [<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="60" height="60" />](https://www.creative-tim.com/product/paper-dashboard-angular)
- [<img src="https://s3.amazonaws.com/creativetim_bucket/github/react.svg" width="60" height="60" />](https://www.creative-tim.com/product/paper-dashboard-react)
 
- | HTML | Angular | React |
- | --- | --- | --- |
- | [![Paper Dashboard 2 HTML](https://s3.amazonaws.com/creativetim_bucket/products/86/thumb/opt_pd2_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-2) | [![Paper Dashboard Angular](https://s3.amazonaws.com/creativetim_bucket/products/58/thumb/opt_pd_angular_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-angular) | [![Paper Dashboard React](https://s3.amazonaws.com/creativetim_bucket/products/98/thumb/opt_pd_react_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-react) |
+
+ | Angular |
+ | --- |
+ | [![Paper Dashboard Angular](https://s3.amazonaws.com/creativetim_bucket/products/58/thumb/opt_pd_angular_thumbnail.jpg)](https://www.creative-tim.com/product/paper-dashboard-angular)
 
  ## Demo
 
- | Dashboard | User Profile | Tables | Icons | Notifications |
- | --- | --- | --- | --- | --- |
- | [![Start page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/dashboard.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/dashboard) | [![User profile page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/user-profile.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/user-profile) | [![Tables page ](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/tables.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/table-list) | [![Icons Page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/icons.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/maps) | [![Notifications page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/notifications.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/notifications)
+ | Dashboard | Crear Usuario | Listado Usuarios |
+ | --- | --- | --- |
+ | [![Start page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/dashboard.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/dashboard) | [![User profile page](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/user-profile.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/user-profile) | [![Tables page ](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-dashboard-angular/tables.png?raw=true)](https://demos.creative-tim.com/paper-dashboard-angular/#/table-list) |
 
  [View More](https://demos.creative-tim.com/paper-dashboard-angular/#/dashboard).
 
