@@ -2,6 +2,7 @@
 
 ![Product Gif](src/assets/img/capturas/img1.png)
 
+
 Este es un proyecto estándar el cual tiene una serie de servicio tales como registrarse, iniciar sección, ver una lista de usuarios con sus atributos (admi), manejos de roles (user, admin) entre otras.
 Tiene una serie de funcionalidades integradas e implementación de algunas tecnologías, herramientas las cuales no permitirán tanto al cliente como al usuario que quiere implementar este proyecto para su beneficio de manera fácil debido a que se trato de dar las mejores prácticas en cada una de las tecnologías usas con la estructura más adecuada
 
